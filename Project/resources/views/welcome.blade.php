@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Famo I  cazzo
+                    Famo I Cazzo
+
                 </div>
 
                 <div class="links">

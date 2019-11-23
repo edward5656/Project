@@ -32,3 +32,6 @@ route::get("/youtube","youtube@index");
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/cazzo', 'PostController@create')->name('createPost');
+Route::post('/cazzo/store', 'PostController@store')->name('storePost');
+
