@@ -28,3 +28,7 @@ route::get('/', function (){
 route::view('users','users');
 route::get("/youtube","youtube@index");
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
